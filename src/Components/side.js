@@ -1,11 +1,12 @@
 import React from 'react';
+import Profile from '../assets/S(2).png';
 
 export default function Side(){
     return (
         <div>
             <div className="close" onclick="">&#10006;</div>
         <div className="my-img">
-            <img src="./images/prof.jpg" alt="Yash Wandhare" />
+            <img src={Profile} alt="portfolio" />
             <div className="name">Sourabh Varshney</div>
         </div>
         <div className="contact" >

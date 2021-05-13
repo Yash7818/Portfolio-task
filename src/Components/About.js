@@ -4,15 +4,15 @@ export default function About(){
     return (
         <div className="about" id="about">
             <h1>About</h1>
-            <div  data-aos="fade-up" className="about-text" >
+            <div className="about-text" >
                 <ul>
                     Highly talented IT Professional with exemplary academic and professional record,
-                    known for providing great analysis, insights for complex situations and �nding innovative
+                    known for providing great analysis, insights for complex situations and finding innovative
                     solutions to various types of problems
                 </ul>
             </div>
             <div className="speci">
-                <div className="speci-s" data-aos="zoom-in-up">
+                <div className="speci-s" >
                     <svg width="408" height="370" viewBox="0 0 408 430" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect width="408" height="430" fill="none"/>
                         <g id="undraw_enter_uhqk 1">
@@ -47,7 +47,7 @@ export default function About(){
                         
                 </div>
                 <div className="speci-fo">
-                <div className="speci-i"  data-aos="fade-up">
+                <div className="speci-i">
                         <h2>
                         Web Development & Designing
                         </h2>
@@ -56,7 +56,7 @@ export default function About(){
                             I've developed several application and projects in my stack and is always keen to learn new things into it.My learning is totally project based.
                         </div>
                 </div>
-                <div className="speci-i"  data-aos="fade-up" style={{transition:"1.4s"}}>
+                <div className="speci-i"  style={{transition:"1.4s"}}>
                     <h2>
                     Competitive Coding
                     </h2>
@@ -66,14 +66,6 @@ export default function About(){
                     </div>
             </div>
             </div>
-            </div>
-            <div className="hobbies">
-                <h1>Hobbies</h1>
-                <div className="hobb">
-                    <div data-aos="fade-up"><i className="fas fa-music"></i>Music</div>
-                    <div data-aos="fade-up"><i className="fas fa-laptop-code"></i>Coding</div>
-                    <div data-aos="fade-up"><i className="fas fa-camera-retro"></i>Photography</div>
-                </div>
             </div>
            
         </div>
