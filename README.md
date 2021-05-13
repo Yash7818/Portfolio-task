@@ -1,8 +1,8 @@
 # PortFolio
 
-## Available Scripts
-
-In the project directory, you can run:
+- Clone the repository
+- `yarn install` to install all the dependencies
+- In the project directory, you can run:
 
 ### `yarn start`
 

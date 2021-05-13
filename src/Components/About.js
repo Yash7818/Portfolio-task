@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function About(){
     return (
-        <div className="about" id="about">
+        <>
             <h1>About</h1>
             <div className="about-text" >
                 <ul>
@@ -49,25 +49,30 @@ export default function About(){
                 <div className="speci-fo">
                 <div className="speci-i">
                         <h2>
-                        Web Development & Designing
+                        Deep Learning Specialization, Learner
                         </h2>
                         <div className="speci-1">
-                            I've been doing web development since very first year of my college, hence I have a good knowledge about my stack.
-                            I've developed several application and projects in my stack and is always keen to learn new things into it.My learning is totally project based.
+                           <ul>
+                               <li>Specialization which gives deep knowledge about algorithms and techniques in the field of Deep Learning</li>
+                               <li>Taught by Andrew Ng, one of the pioneers of the field</li>
+                               <li>Passed with flying colors in the tests</li>
+                           </ul>
                         </div>
                 </div>
                 <div className="speci-i"  style={{transition:"1.4s"}}>
                     <h2>
-                    Competitive Coding
+                    Stanford Machine Learning, Learner
                     </h2>
                     <div className="speci-1">
-                       I've been doing competitive coding since last one year. I am doing CP in languages like C,C++ & python.I love to write optimistic codes
-                       and thing on the optimization process.I like to practice and develop my own stratergies.I am always in search of new ways to make my code look fascinating. 
+                      <ul>
+                          <li>Understood the basics of the Machine Learning Algorithms in practical manner</li>
+                          <li>Got knowledge of a range of topics from supervised learning to unsupervised learning</li>
+                      </ul>
                     </div>
             </div>
             </div>
             </div>
            
-        </div>
+        </>
     );
 }
